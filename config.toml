@@ -1,0 +1,6 @@
+[server]
+# GitHub butonunu gizle
+showGitHubLink = false
+
+# "Fork this app" butonunu gizle
+showForkThisAppButton = false

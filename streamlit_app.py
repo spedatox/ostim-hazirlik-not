@@ -23,7 +23,7 @@ st.header("Notları Girin")
 
 vize_not = st.number_input("Vize Notu [Mt] (0-100 arası)", min_value=0.0, max_value=100.0, value=0.0)
 final_not = st.number_input("Final Notu [Fe] (0-100 arası)", min_value=0.0, max_value=100.0, value=0.0)
-odev_not = st.number_input("Online Ödev Notu (Oh) (0-100 arası)", min_value=0.0, max_value=100.0, value=0.0)
+odev_not = st.number_input("Online Ödev Notu [Oh] (0-100 arası)", min_value=0.0, max_value=100.0, value=0.0)
 proje_not = st.number_input("Proje Notu [Ou] (0-100 arası)", min_value=0.0, max_value=100.0, value=0.0)
 katilim_not = st.number_input("Derse Katılım Notu [Pr] (0-100 arası)", min_value=0.0, max_value=100.0, value=0.0)
 

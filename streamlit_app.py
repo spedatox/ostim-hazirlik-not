@@ -1,7 +1,15 @@
 import streamlit as st
 
-# Streamlit arayüzü başlığı
-st.title("Dönem Sonu Not Hesaplama Aracı")
+# Streamlit arayüzü başlığı ve açıklama
+st.title("Ostim Teknik Üniversitesi Hazırlık Bölümü Kur Sonu Not Hesaplama Programı")
+st.markdown("Bu program, dönem sonu notunuzu hesaplar ve geçme durumunuzu gösterir.")
+
+# Yazılım sahibi hakkında bilgi butonu
+if st.button("Yazılım Sahibi Hakkında"):
+    st.write("""
+    **Yazılım Sahibi: Ahmet Erol Bayrak**  
+    Bu program, Ostim Teknik Üniversitesi Hazırlık Bölümü öğrencileri için kur sonu not hesaplamayı kolaylaştırmak amacıyla geliştirilmiştir.
+    """)
 
 # Sabit ağırlıklar
 VIZE_AGIRLIK = 0.25
@@ -35,3 +43,10 @@ if st.button("Hesapla"):
 
     # Sonucu göster
     st.success(f"Dönem Sonu Notunuz: {toplam_not:.2f}")
+
+    # Geçme durumunu kontrol et
+    if toplam_not >= 60:
+        st.balloons()  # Kutlama efekti
+        st.success("Tebrikler! Kur Sonu Notunuz 60 ve üzeri. Geçtiniz! 🎉")
+    else:
+        st.error("Üzgünüm, Kur Sonu Notunuz 60'ın altında. Kurdan Kaldınız. 😢")

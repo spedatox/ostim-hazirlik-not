@@ -1,39 +1,51 @@
-🎓 Ostim Technical University Prep Course Final Grade Calculator
+# 🎓 Ostim Technical University Prep Course Final Grade Calculator
 
-This program is designed to help Ostim Technical University English Prep Course students easily calculate their final term grades. By entering scores for midterm, final exam, online homework, project, and class participation, students can instantly see their total grade and passing status.
+This application is designed to help **Ostim Technical University English Prep Course** students calculate their final term grades with ease. Simply input your scores for each category and instantly see your total grade and whether you've passed or not.
 
-⸻
+---
 
-🚀 Features
+## 🚀 Features
 
-✔ Fast & User-Friendly: Instantly calculates your final grade with an easy-to-use interface.
-✔ Weighted Grading System: The final grade is calculated based on the university’s grading scale:
-	•	Midterm (25%)
-	•	Final Exam (30%)
-	•	Online Homework (10%)
-	•	Project (20%)
-	•	Class Participation (15%)
-✔ Pass/Fail Status Check: The program automatically determines if you passed (🎉 Congrats!) or failed (😢 Try Again!).
-✔ Interactive UI: A celebration effect (🎈) appears when you pass!
+✔ **Fast & User-Friendly**  
+Easily calculate your final grade through a clean and intuitive interface.
 
-⸻
+✔ **Weighted Grading System**  
+Final grades are calculated using the official Ostim Technical University prep course scale:
+- **Midterm**: 25%  
+- **Final Exam**: 30%  
+- **Online Homework**: 10%  
+- **Project**: 20%  
+- **Class Participation**: 15%
 
-🌐 Live Demo
+✔ **Pass/Fail Status Check**  
+Automatically determines your result:
+- 🎉 **Pass** – Congrats!  
+- 😢 **Fail** – Try again next time!
 
-You can access the cloud-deployed version of the calculator here:
+✔ **Interactive UI**  
+Celebrate your success with a confetti animation when you pass! 🎈
 
-https://ostimprepscore.streamlit.app
+---
 
+## 🌐 Live Demo
 
-⸻
+Try it now via the cloud-deployed Streamlit app:
 
-📜 License
+👉 [https://ostimprepscore.streamlit.app](https://ostimprepscore.streamlit.app)
 
-This project is licensed under the MIT License.
+---
 
-⸻
+## 📜 License
 
-💡 Developer: Ahmet Erol Bayrak
-📧 Contact: GitHub
+This project is licensed under the **MIT License**.
 
-🔗 Specifically designed for Ostim Technical University students!
+---
+
+## 👨‍💻 Developer
+
+**Ahmet Erol Bayrak**  
+📧 Contact via [GitHub](https://github.com)
+
+---
+
+🔗 Specifically designed for **Ostim Technical University** students!
